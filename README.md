@@ -14,6 +14,6 @@ The proper way to start a code sequence:
     
     wake();
     
-The code should refuse to start without "init_port()" being called.
+The code should refuse to start without "init_port()" being called....
 
 A note should be made about sensors and notifications.  "init_port()" starts a thread that fields all the input from the RVR.  Sensor data and notifications are registered and accessible via "get_..." calls.  See sensor.h for a list of calls and sensortest files for examples.
